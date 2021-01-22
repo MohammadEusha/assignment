@@ -1,19 +1,17 @@
-//solving kilometerToMeter
-
+//Problem 1 : solving kilometerToMeter.
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
 
-var convert = kilometerToMeter(69);
+var convert = kilometerToMeter(112.52);
 console.log(convert);
 
 
 
 
-//solving budgetCalculator
-
+//Problem 2 : solving budgetCalculator.
 
 function budgetCalculator(watch, phone, laptop) {
     var watchNumber = watch * 10;
@@ -29,8 +27,7 @@ console.log(totalPrice);
 
 
 
-//solving hotelCost
-
+//Problem 3 : solving hotelCost.
 
 function hotelCost(daysSpent) {
     var cost = 0;
@@ -57,8 +54,9 @@ console.log(totalCost);
 
 
 
-//solving megaFriend 
+//Problem 4 : solving megaFriend.
 
+var names = ['Mohammad', 'Eusha', 'Showaib', 'Azam', 'Afroza'];
 
 function megaFriend(names) {
     var megaName = names[0];
@@ -71,5 +69,8 @@ function megaFriend(names) {
     return megaName;
 }
 
-var names = ['Mohammad', 'Eusha', 'Showaib', 'Azam', 'Afroza'];
 console.log(megaFriend(names));
+
+
+
+//Finished.
